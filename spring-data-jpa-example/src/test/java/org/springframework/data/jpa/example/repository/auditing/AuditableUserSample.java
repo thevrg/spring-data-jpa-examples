@@ -38,7 +38,7 @@ public class AuditableUserSample {
 
 	@Autowired AuditableUserRepository repository;
 	@Autowired AuditorAwareImpl auditorAware;
-	@Autowired AuditingEntityListener<?> listener;
+	@Autowired AuditingEntityListener listener;
 
 	@Test
 	public void auditEntityCreation() throws Exception {
